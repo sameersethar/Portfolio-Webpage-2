@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sameer's Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" data-aos="fade-up">
+    <header>
+      <img src="sameer2.png" alt="Avatar" class="avatar">
+     <h1>Sameer Sethar</h1>
+      <div id="typed-text"></div>
+    </header>
+    <h2 class="section-title">About Me</h2>
+    <p style="text-align: center; max-width: 700px; margin: auto;">
+      I'm a passionate web developer who loves creating modern, responsive, and user-friendly websites.
+      I specialize in HTML, CSS, JavaScript, and have experience with modern frameworks like React
+      and mySQL for backend development. I also have a keen interest in UI/UX design, focusing on creating intuitive user experiences.>
+      I'm always exploring new tools and trends in web development to enhance my craft.
+    </p>
+  </section>
+
+  <section id="services" data-aos="fade-up">
+    <h2 class="section-title">Services</h2>
+    <div class="card">🔧 <strong>Front-End Development:</strong> Clean and efficient websites with responsive designs.</div>
+    <div class="card">🎨 <strong>UI/UX Design:</strong> Figma wireframes, prototypes, and user flow analysis.</div>
+    <div class="card">🚀 <strong>Performance Optimization:</strong> Fast-loading, SEO-friendly builds.</div>
+  </section>
+
+  <section id="projects" data-aos="fade-up">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>A clean responsive site showcasing personal projects and blogs.</p>
+      </div>
+      <div class="card">
+        <h3>Task Tracker App</h3>
+        <p>Built using Java and MySQL Database, allowing users to manage tasks efficiently.</p>
+      </div>
+      <div class="card">
+        <h3>E-commerce UI</h3>
+        <p>Responsive frontend for a shopping site with cart and checkout using Java, HTML, CSS, JavaScript, and MySQL Database.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" data-aos="fade-up">
+    <h2 class="section-title">Testimonials</h2>
+    <div class="card">
+      <p>"Sameer is highly skilled and professional. He delivered a modern design with smooth UX — highly recommended!"</p>
+      <p style="text-align: right;">- Client Review</p>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>Connect with me:</p>
+    <div class="socials">
+      <a href="https://github.com/sameersethar" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/sameer-sethar/" target="_blank">LinkedIn</a>
+      <a href="mailto:sameersethar907@gmail.com" target="_blank">Email</a>
+      <a href="https://www.instagram.com/sameer.sethar/" target="_blank">Instagram</a>
+    </div>
+    <p>&copy; 2025 Sameer. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    const typed = new Typed("#typed-text", {
+      strings: ["Web Developer", "UI/UX Enthusiast", "Front-End Expert", "Database Expert"],
+      typeSpeed: 60,
+      backSpeed: 40,
+      loop: true
+    });
+  </script>
+</body>
+</html>
